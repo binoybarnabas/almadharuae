@@ -1,0 +1,16 @@
+.location-img{
+    height:5vh;
+    width:5vh;
+    align-items: center;
+}
+
+.footer-style{
+    background-color:#001d3d;
+    color:white;
+    
+}
+.footer{
+    padding-top: 5vh;
+    background-color:#001d3d;
+    color:white;
+}
