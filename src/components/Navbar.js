@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from '../assets/dummy-logo.jpg'
 const Navbar = () => {
   return (
     <div>
@@ -59,7 +60,7 @@ const Navbar = () => {
         >
           <div className="container">
             <a className="navbar-brand" href="index.html">
-              Papermag <span>Magazine</span>
+              <img src={logo} style={{ height: "70px" }} />
             </a>
             <button
               className="navbar-toggler"
