@@ -8,7 +8,7 @@ const MarqueeGallery = () => {
     <div className="marquee-container">
       <div className="marquee">
         <img src={plumbing} />
-        <img src={electrical} />
+        <img src={mechanical} />
         <img src={electrical} />
       </div>
     </div>
