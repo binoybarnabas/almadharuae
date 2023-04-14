@@ -48,14 +48,14 @@ const Footers = () => {
 
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
-              <h6 className="text-uppercase fw-bold">Company name</h6>
+              <h6 className="text-uppercase fw-bold">Almadhar</h6>
               <hr className="mb-4 mt-0 d-inline-block mx-auto"
                 style={{ height: "2px", width: "60px", backgroundColor: "#7c4dff" }}>
               </hr>
               <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
+                Almadhar is the best in providing electrical plumbing and
+                mechanical works in UAE. we are competitive in our service and do
+                the best in className with better quality and safety.
               </p>
             </div>
 
@@ -63,21 +63,18 @@ const Footers = () => {
 
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
-              <h6 className="text-uppercase fw-bold">Products</h6>
+              <h6 className="text-uppercase fw-bold">Services</h6>
               <hr className="mb-4 mt-0 d-inline-block mx-auto"
                 style={{ height: "2px", width: "60px", backgroundColor: "#7c4dff" }}>
               </hr>
               <p>
-                <a href="#!" className="text-white">MDBootstrap</a>
+                <a href="#!" className="text-white">Electrical works</a>
               </p>
               <p>
-                <a href="#!" className="text-white">MDWordPress</a>
+                <a href="#!" className="text-white">Mechanical works</a>
               </p>
               <p>
-                <a href="#!" className="text-white">BrandFlow</a>
-              </p>
-              <p>
-                <a href="#!" className="text-white">Bootstrap Angular</a>
+                <a href="#!" className="text-white">Plumbing Works</a>
               </p>
             </div>
 
@@ -88,16 +85,16 @@ const Footers = () => {
                 style={{ height: "2px", width: "60px", backgroundColor: "#7c4dff" }}>
               </hr>
               <p>
-                <a href="#!" className="text-white">Your Account</a>
+                <a href="#!" className="text-white">About</a>
               </p>
               <p>
-                <a href="#!" className="text-white">Become an Affiliate</a>
+                <a href="#!" className="text-white">Services</a>
               </p>
               <p>
-                <a href="#!" className="text-white">Shipping Rates</a>
+                <a href="#!" className="text-white">Projects</a>
               </p>
               <p>
-                <a href="#!" className="text-white">Help</a>
+                <a href="#!" className="text-white">Contact Us</a>
               </p>
             </div>
 
@@ -109,8 +106,8 @@ const Footers = () => {
               <hr className="mb-4 mt-0 d-inline-block mx-auto"
                 style={{ height: "2px", width: "60px", backgroundColor: "#7c4dff" }}>
               </hr>
-              <p><i className="fa fa-home mr-3"></i> New York, NY 10012, US</p>
-              <p><i className="fa fa-envelope mr-3"></i> info@example.com</p>
+              <p><i className="fa fa-home mr-3"></i>almadhar technical llc uae dubai</p>
+              <p><i className="fa fa-envelope mr-3"></i>almadhar@info.uae</p>
               <p><i className="fa fa-phone mr-3"></i> + 01 234 567 88</p>
               <p><i className="fa fa-print mr-3"></i> + 01 234 567 89</p>
             </div>
@@ -126,10 +123,10 @@ const Footers = () => {
         className="text-center p-3"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
-        © 2020 Copyright:
-        <a className="text-white" href="https://mdbootstrap.com/"
-        >MDBootstrap.com</a
-        >
+        Copyright © 2023 -
+        <a className="text-white" href="#"
+        > AL MADHAR TECHNICAL CONTRACTING LLC.</a
+        > All rights reserved
       </div>
 
     </footer>
