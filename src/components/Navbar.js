@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from '../assets/dummy-logo.jpg'
+import logo from '../assets/dummy-logo.jpg';
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
@@ -76,31 +77,31 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="ftco-nav">
               <ul className="navbar-nav m-auto">
                 <li className="nav-item active">
-                  <a href="#" className="nav-link">
+                  <Link to="/" className="nav-link">
                     Home
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <Link to="/about" className="nav-link">
                     About
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <Link to="/projects" className="nav-link">
                     Projects
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <Link to="/services" className="nav-link">
                     Services
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <Link to="/contact" className="nav-link">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
