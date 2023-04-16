@@ -126,7 +126,7 @@ const Footers = () => {
         Copyright © 2023 -
         <a className="text-white" href="#"
         > AL MADHAR TECHNICAL CONTRACTING LLC.</a
-        > All rights reserved
+        > All rights reserved.
       </div>
 
     </footer>
