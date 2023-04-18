@@ -1,7 +1,3 @@
-import location from "../assets/locationglobe.svg";
-import call from "../assets/call.svg";
-import mailbox from "../assets/mailbox.svg";
-
 import "../styles/Rainbow.css";
 const Footers = () => {
   return (
@@ -85,16 +81,16 @@ const Footers = () => {
                 style={{ height: "2px", width: "60px", backgroundColor: "#7c4dff" }}>
               </hr>
               <p>
-                <a href="#!" className="text-white">About</a>
+                <a href="#" className="text-white">About</a>
               </p>
               <p>
-                <a href="#!" className="text-white">Services</a>
+                <a href="#" className="text-white">Services</a>
               </p>
               <p>
-                <a href="#!" className="text-white">Projects</a>
+                <a href="#" className="text-white">Projects</a>
               </p>
               <p>
-                <a href="#!" className="text-white">Contact Us</a>
+                <a href="#" className="text-white">Contact Us</a>
               </p>
             </div>
 
