@@ -13,9 +13,14 @@ const Contact = () => {
                 <div className="row justify-content-center">
                     <div className="col-md-12">
                         <div className="wrapper">
-                            <div className="row mb-5">
+                            <div className="row mb-4">
+                                <div className="col-md-6 col-sm-6 d-flex align-items-center">
+                                    <div className="mt-2">
+                                        <iframe src={"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5339387131135!2d55.43050067526133!3d25.286258977653667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5ef126ea8e0b%3A0xfa3724ea810c1ac6!2sAl%20Madar%20Engineering%20LLC!5e0!3m2!1sen!2sin!4v1681650378149!5m2!1sen!2sin"} width="650" height="567" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
                                 <div className="col-md-6 d-flex flex-fill ">
-                                    <div className="contact-wrap p-md-5 p-4">
+                                    <div className="contact-wrap p-md-5 p-2 m-2">
                                         <h3 className="mb-4">Contact Us</h3>
                                         <div id="form-message-warning" className="mb-4"></div>
                                         <div id="form-message-success" className="mb-4">
@@ -57,11 +62,7 @@ const Contact = () => {
                                         </form>
                                     </div>
                                 </div>
-                                <div className="col-md-6 col-sm-6 d-flex align-items-center">
-                                    <div id="map">
-                                        <iframe src={"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5339387131135!2d55.43050067526133!3d25.286258977653667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5ef126ea8e0b%3A0xfa3724ea810c1ac6!2sAl%20Madar%20Engineering%20LLC!5e0!3m2!1sen!2sin!4v1681650378149!5m2!1sen!2sin"} width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                    </div>
-                                </div>
+
                             </div>
                             <div className="row">
                                 <div className="col-md-3">
