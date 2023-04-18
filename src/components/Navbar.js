@@ -56,7 +56,7 @@ const Navbar = () => {
           </div>
         </div>
         <nav
-          className="navbar fixed-top navbar-expand-lg navbar-dark ftco_navbar bg-light ftco-navbar-light"
+          className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-light ftco-navbar-light"
           id="ftco-navbar"
         >
           <div className="container">
